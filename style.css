@@ -8,12 +8,14 @@ body {
 
 header {
     height: 60px;
+    width: 100%;
     background-color: #2C2C2C;
     border-bottom: solid thin #202020;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
 }
 
 nav {
@@ -50,7 +52,7 @@ nav a:hover {
 main {
     margin-left: 200px;
     padding: 1em;
-    padding-top: 20px;
+    padding-top: 70px;
 }
 
 section {
